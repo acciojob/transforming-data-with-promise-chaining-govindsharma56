@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let num=document.querySelector('#number')
+let num=document.querySelector('#ip')
 let btn=document.querySelector('#btn');
 let output=document.querySelector('#output');
 btn.addEventListener('click',()=>{
