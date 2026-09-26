@@ -2,7 +2,7 @@
 let btn=document.querySelector('#btn');
 let output=document.querySelector('#output');
 btn.addEventListener('click', () => {
-	let num=document.querySelector('#ip').value
+	let num=Number(document.querySelector('#ip').value)
     new Promise((resolve) => {
         setTimeout(() => {
             resolve(num);
